@@ -20,7 +20,7 @@
                     <div="nav-wrapper">
                         <a href="#"  class="brand-logo">Alfredo Torres</a>
                         <ul class="right hide-on-med-and-down" id="navList">
-                            <li><a href="#landing">Home</a></li>
+                            <li><a href="./index.html">Home</a></li>
                             <li><a href="#intro">About Me</a></li>
                             <li><a href="#work">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
@@ -69,22 +69,30 @@
                 </div>
             </div>
         </div>
-
-        <!--Parallax-->
-         <div id="p1" class="parallax-container">
-            <div  class="parallax">
-                <img src="./images/black-and-white-design-geometric-2988.jpg">
-                
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center black-text">
-                        <h1><b>QUOTE</b></h1>
-                        <h4 >"Success is not final; failure is not fatal- <br />
-                            It is the courage to continue that counts."
-                        </h4>
-                    </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
                 </div>
-            </div>
-                
-        </div>
+                <div class="input-field col s6">
+                  <input style="text-decoration-color: white;"id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="./portfolio.js"></script>
+      </body>
+    </html>
