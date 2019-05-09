@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $('.parallax').parallax();
 });
-$(document).ready(function() {
-    M.updateTextFields();
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, options);
   });
-        
